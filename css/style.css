@@ -44,6 +44,9 @@ header::after{
   
 
 }
+.site-nav li{
+    border-bottom: 1px solid #575766;
+}
 .site-nav ul {
     
     margin:0; 
@@ -52,6 +55,10 @@ header::after{
 }
 .site-nav  a{
     text-decoration: none;
-    color: #000;
+    color: #EBEBD3;
+    display:block;
+    text-transform: uppercase;
+    padding: 2em 6em;
+    
     
 }
