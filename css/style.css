@@ -14,7 +14,8 @@ body{
 }
 
 header{
-    background: #fff;
+    background: 
+#B0E0E6;
     padding: 1em 0; 
     position: relative;
 }
@@ -30,13 +31,23 @@ header::after{
     float: left; 
     font-size: 1rem;
     margin: 0; 
-    text-transform: uppercase;
+    text-transform: uppercas;
     font-weight: 700;
 }
 .logo span{
     font-weight: 300;
 }
-.site-nav{
+
+
+@meida (min-width:800px){
+    .site-nav li{}
+    
+}
+
+
+@media (max-width: 800px){
+    
+    .site-nav{
     position:absolute;
     top:100%;
     right:0%;
@@ -61,4 +72,16 @@ header::after{
     padding: 2em 6em;
     
     
+    
 }
+
+.site-nav a:hover,
+.site-nav a:focus{
+    background: #e4b363;
+    
+}
+.site-nav li:last-child{
+    border-bottom:none;
+}
+}
+
