@@ -48,7 +48,9 @@ header::after{
     
     .site-nav a{
         right:0;
+        text-align: right;
     }
+    
     
 }
 
