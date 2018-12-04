@@ -39,8 +39,11 @@ header::after{
 }
 
 
-@meida (min-width:800px){
-    .site-nav li{}
+@media (min-width:800px){
+    .site-nav li{
+        display: inline-block;
+        
+    }
     
 }
 
