@@ -42,7 +42,12 @@ header::after{
 @media (min-width:800px){
     .site-nav li{
         display: inline-block;
+       
         
+    }
+    
+    .site-nav a{
+        right:0;
     }
     
 }
